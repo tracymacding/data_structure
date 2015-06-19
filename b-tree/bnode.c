@@ -2,6 +2,7 @@ package b_tree
 
 type Item int
 
+// BNode is node structure on tree
 type BNode struct {
 	count    int
 	maxKey   int
